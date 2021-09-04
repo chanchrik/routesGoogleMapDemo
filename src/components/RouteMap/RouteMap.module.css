@@ -1,0 +1,60 @@
+.mapModalWrapper {
+  position: fixed;
+  top: 0px;
+  background-color: rgba(255, 255, 255, 0.6);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: scroll;
+}
+.mapModalBody {
+  display: flex;
+  flex-direction: column;
+  margin-top: 64px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 16px;
+}
+.mapWrapper {
+  width: 500px;
+  height: 400px;
+  margin-top: 16px;
+}
+.mapCloseBtn {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 8px;
+  color: black;
+  padding: 8px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  height: 36px;
+  width: 38px;
+  align-self: flex-end;
+  margin-bottom: 24px;
+}
+.mapCloseBtn:hover {
+  background-color: grey;
+}
+
+.actionsWrapper {
+  margin-top: -36px;
+}
+.actionsWrapper label {
+  display: block;
+  font-weight: bold;
+  text-align: left;
+  margin: 8px 0px;
+}
+.addRouteToMapBtn {
+  cursor: pointer;
+  border-radius: 6px;
+  padding: 8px;
+  background-color: black;
+  color: white;
+  margin-bottom: 8px;
+}

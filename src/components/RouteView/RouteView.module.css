@@ -1,0 +1,43 @@
+.routeViewWrapper {
+  display: flex;
+  padding: 64px;
+}
+.headerText {
+  line-height: 28px;
+  font-size: 32px;
+  font-weight: 700;
+}
+.descriptionText {
+  line-height: 17px;
+  font-size: 15px;
+  font-weight: 400;
+  color: grey;
+}
+.createBtn {
+  cursor: pointer;
+  border-radius: 6px;
+  padding: 8px;
+  background-color: black;
+  color: white;
+}
+.createBtn:hover {
+  background-color: grey;
+}
+.routesWrapper {
+  max-width: 600px;
+}
+
+.stopWrapper {
+  margin-bottom: 24px;
+  border: 1px solid grey;
+  padding: 12px 8px;
+  border-radius: 8px;
+}
+.displayFlex {
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
+}
+.displayFlex p {
+  margin: 0px;
+}
